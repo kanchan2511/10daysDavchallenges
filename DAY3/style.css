@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(228,237,247);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+.container{
+    background: #ffffff;
+    height: 450px;
+    width: 900px;
+    padding: 40px;
+    border-radius: 18px;
+    color: #486282;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+}
+.first{
+    display: flex;
+    justify-content: space-between;
+    font-size: 22px;
+}
+.first i{
+    cursor: pointer;
+}
+.socialmedia{
+    display: flex;
+    justify-content: space-around;
+     margin: 40px; 
+}
+.social{
+    font-size: 20px;
+    cursor: pointer;
+}
+.social button{
+    all: unset;
+    font-size: 40px;
+    background:  rgba(173, 171, 171, 0.1);
+    padding: 15px;
+    border-radius: 50%;
+}
+ .whatsapp{
+    font-size: 20px;
+    cursor: pointer;
+}
+.whatsapp button{
+    all: unset;
+    font-size: 40px;
+    background: rgba(214, 177, 157, 0.2);
+    padding: 15px; 
+    border-radius: 50%;
+    color: orangered;
+} 
+.social:hover{
+    background-color: rgba(0,0,0,0.1);
+}
+.whatsapp:hover{
+    background-color: rgba(0,0,0,0.1);
+}
+.fig{
+    color: orangered;
+}
+figcaption{
+    padding: 10px; 
+}
+p{
+    text-align: center;
+    color: #486282;
+    font-size: 20px;
+    padding: 10px;
+     margin-bottom: 20px; 
+}
+.copyable{
+    padding: 10px;
+    background: rgba(173, 171, 171, 0.1);
+    border-radius: 15px;
+    display: flex;
+    margin: auto;
+}
+.copyable input {
+     border: none;
+    flex: 1;
+    outline: none;
+    font-size: 18px; 
+    background: transparent;
+  }
+  .copyable input::placeholder {
+    font-size: 20px;
+    color: #486282;
+    padding-left: 10px;
+  }
+  .copyable button {
+    all: unset;
+    font-size: 28px;
+    padding: 15px;
+    border-radius: 50%;
+    color: orangered;
+    font-weight: 600;
+    cursor: pointer;
+  }
