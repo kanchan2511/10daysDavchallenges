@@ -1,0 +1,129 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+body{
+    background-color: #000000;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; 
+    color: white;
+    flex-direction: column;
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.logo{
+    inline-size: 250px;
+    block-size: 80px;
+   text-align: center;
+   margin: 10px;
+   padding: 10px;
+}
+.image img{
+    padding: 10px;
+    font-size: xx-large;
+    block-size: 500px;
+}
+.content{
+    padding: 50px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(255,255,255,0.1);
+    text-align: center;
+}
+.content input{
+    all: unset;
+    display: flex;
+    background-color: rgb(18, 17, 17);
+    padding: 10px;
+    margin: 8px;
+    text-align: left;
+    border: 1px solid rgb(101, 99, 99,0.3);
+    border-radius: 5px;
+    font-size: 12px;
+    inline-size: 100%;  
+}
+
+input::placeholder{
+    color: rgb(162, 162, 162);
+}
+.log{
+    all: unset;
+    background-color: #0095F6;
+    padding: 10px;
+    margin-top: 10px;
+    text-align: center;
+    inline-size: 100%;
+    border-radius: 5px;
+    color: white;
+    border: none;
+    margin: 8px;
+    cursor: pointer;
+}
+.log:hover{
+    background-color: #0077cc;
+}
+
+ .line{
+    border: 1px solid rgba(101,99,99,0.5);
+    position: relative;
+    margin: 20px;
+    inline-size: 100%;
+ }
+ .line button{
+    color: white;
+    background-color: #000000;
+    border: none;
+    position: absolute;
+    top: -10px;
+    padding: 7px;
+    right: 120px;
+    border-radius: 50%;
+ }
+
+.facebook{
+    background: none;
+    color: #0095F6;
+    border: none;
+    display: block;
+    text-align: center;
+    margin-top: 20px;
+}
+.facebook i{
+    color: #0095f6;
+    font-size: 32px;
+    padding: 7px;
+    padding-top: 30px;
+}
+.facebook p a{
+     display: block; 
+    color: white;
+    text-align: center;
+   margin-top: 20px;
+}
+.signup p{
+    margin:50px;
+}
+.signup a{
+    color: #0095F6;
+    margin: 2px;
+}
+.app p{
+    text-align: center;
+}
+
+.google{
+    block-size: 80px;
+    inline-size: 120px;
+}
+.micro{
+    block-size: 83px;
+    inline-size: 100px;
+}
+
