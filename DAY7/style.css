@@ -1,0 +1,66 @@
+/*1. Use font family sans-serif
+2. Use the background image on the body
+3. On hover, background color of button should change to rgba(255, 255, 255, 0.8)*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+   font-family: sans-serif;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   height: 100vh;
+   background: url(login-hero-bg.jpg) no-repeat;
+}
+.container{
+    background-color: rgba(255, 255, 255, 0.1);
+    width: 300px;
+    border: 2px solid rgb(207, 206, 206);
+    border-radius: 10px;
+    backdrop-filter: blur(10px); 
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+h2{
+    margin-block-end: 15px;
+}
+input{
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0px;
+    border: none;
+    border-bottom: inherit;
+    background: transparent;
+    outline: none;
+}
+input::placeholder{
+    color: rgb(207,206,206);
+}
+button{
+    padding: 10px;
+    margin-top: 10px;
+    width: 100%;
+    border: none;
+    border-radius: 5px;
+    background: white;
+    color: black;
+    font-size: 16px;
+    cursor: pointer;
+}
+button:hover{
+    background-color:  rgba(255, 255, 255, 0.8);
+}
+p{
+    margin-top: 10px;
+    padding: 10px;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+}
